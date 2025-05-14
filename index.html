@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 & JavaScript Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User Preferences Demo</h1>
+        
+        <div class="preferences">
+            <div class="preference-option">
+                <label for="theme">Select Theme:</label>
+                <select id="theme">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                    <option value="blue">Blue</option>
+                </select>
+            </div>
+            
+            <div class="preference-option">
+                <label for="animation">Select Animation Style:</label>
+                <select id="animation">
+                    <option value="bounce">Bounce</option>
+                    <option value="rotate">Rotate</option>
+                    <option value="pulse">Pulse</option>
+                </select>
+            </div>
+            
+            <button id="saveBtn">Save Preferences</button>
+            <button id="resetBtn">Reset Preferences</button>
+        </div>
+        
+        <div class="demo-area">
+            <div id="animatedElement" class="box">
+                Watch me animate!
+            </div>
+            <button id="animateBtn">Trigger Animation</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
